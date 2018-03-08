@@ -1,0 +1,51 @@
+CAMILO GATIVA (161003615)
+
+VARIABLES(gramos)
+VARIABLES(gramos)
+ 
+X0 = galletas
+
+X1 = arandanos
+
+X2 = palitos
+
+X3 = rosquitos
+
+X4 = compota
+
+TABLANUTRICIONAL(porcion)
+TABLANUTRICIONAL(porcion)
+producto/caracteristica	galletas	arandanos	palitos	rosquitas	compota	dieta de 2000 cal.
+grasa	6	1	1	5	0	>= 44g
+colesterol	0	0	0	0,005	0	<= 0,02g
+sodio	0.01	0	0,13	0,32	0,2	>= 2,3g
+carbohidratos	16	23	10	17	20	>= 225g
+fibra dietaria	0	2	0	2	0	>= 20g
+azucar	9	19	0	1	13	>= 25g
+proteina	1	1	2	6	0,8	>= 55g
+valor(porcion)	315	930	252	731	1250
+PLANTEAMIENTODELPROBLEMA
+PLANTEAMIENTODELPROBLEMA
+SABERSABER CUALCUAL ESES LALA DIETADIETA MASMAS ECONOMICAECONOMICA QUEQUE CUMPLACUMPLA CONCON ELEL CONSUMOCONSUMO NECESARIONECESARIO PARAPARA UNAUNA PERSONAPERSONA NORMALNORMAL
+Restricciones
+Restricciones
+6x0+b+c+5d>=44g
+6x0+b+c+5d>=44g
+,005x3<=0,02g
+,005x3<=0,02g
+0,01x0+0,13x2+0,32x3+0,2x4>=2,3g
+0,01x0+0,13x2+0,32x3+0,2x4>=2,3g
+16x0+23x1+10x2+17x3+20x4>=225g
+16x0+23x1+10x2+17x3+20x4>=225g
+2x1+2x3>=20g
+2x1+2x3>=20g
+9x0+19x1+x3+13x4>=25
+9x0+19x1+x3+13x4>=25
+x0+x1+2x2+6x3+x4>=55
+x0+x1+2x2+6x3+x4>=55
+FUNCION
+FUNCION
+OBJETIVO
+OBJETIVO
+z=315x0+930x1+252x2+731x3+1250x4
+z=315x0+930x1+252x2+731x3+1250x4

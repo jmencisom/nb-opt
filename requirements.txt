@@ -1,9 +1,11 @@
 appnope==0.1.0
 backports-abc==0.5
+backports.functools-lru-cache==1.5
 backports.shutil-get-terminal-size==1.0.0
 bleach==2.1.2
 certifi==2018.1.18
 configparser==3.5.0
+cycler==0.10.0
 decorator==4.2.1
 entrypoints==0.2.3
 enum34==1.1.6
@@ -19,7 +21,9 @@ jupyter==1.0.0
 jupyter-client==5.2.2
 jupyter-console==5.2.0
 jupyter-core==4.4.0
+kiwisolver==1.0.1
 MarkupSafe==1.0
+matplotlib==2.2.2
 mistune==0.8.3
 nbconvert==5.3.1
 nbformat==4.4.0
@@ -33,7 +37,9 @@ pickleshare==0.7.4
 prompt-toolkit==1.0.15
 ptyprocess==0.5.2
 Pygments==2.2.0
+pyparsing==2.2.0
 python-dateutil==2.6.1
+pytz==2018.4
 pyzmq==17.0.0
 qtconsole==4.3.1
 scandir==1.7
@@ -44,6 +50,7 @@ simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.11.0
 sklearn==0.0
+subprocess32==3.5.0
 terminado==0.8.1
 testpath==0.3.1
 tornado==4.5.3
